@@ -1,0 +1,49 @@
+# Symfony/web-server-bundle
+/.web-server-pid
+
+# Configs
+/app/config/parameters.yml
+/.env.local
+/.env.local.php
+/.env.*.local
+
+# Built files
+/public/bundles/
+/public/assets/
+/web/bundles/
+/web/assets/
+/build/
+.phpunit
+/phpunit.xml
+
+# Temp files
+/var/*
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/upload
+/var/upload/*
+!var/upload/.gitkeep
+!/var/maintenance
+/var/maintenance/*
+!var/maintenance/.gitkeep
+!/var/log
+/var/log/*
+!var/log/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+!var/SymfonyRequirements.php
+
+# Dependencies
+/vendor/
+node_modules/
+
+# IDE configs
+.idea
+.sass-cache
+.DS_Store
+
+# Temp folder
+.tmp/
+
